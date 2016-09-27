@@ -81,6 +81,7 @@
   ## Usage:
   * We want to have some shapes with rounded corner. To do this, we simply call the concrete decorate class that we interest,
   the *RoundedCornerShapeDecorator* class and pass new shape (Rectangle or Square) as an argument of the constructor:
+  
   ```swift
   let roundRect = RoundedCornerShapeDecorator(decoratedShape: Rectangle())
   let roundSquare = RoundedCornerShapeDecorator(decoratedShape: Square())
